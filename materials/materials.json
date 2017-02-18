@@ -1,15 +1,21 @@
 {
     "materials": [
-        {
-            "title": "Presentation",
-            "notes": "these are some notes about this material",
-            "link": "materials/presentation.pdf",
-            "thumbnail": "media/presentation.png"
-        },
-        {
-            "title": "Presentation",
-            "notes": "These are some notes about this material",
-            "link": "presentation.pdf"
-        }
-    ]
+
+    ],
+    "_comment": {
+        "_msg": "This is an example of what this could look like",
+        "materials": [
+            {
+                "title": "Presentation",
+                "notes": "these are some notes about this material",
+                "link": "materials/presentation.pdf",
+                "thumbnail": "media/presentation.png"
+            },
+            {
+                "title": "Presentation",
+                "notes": "These are some notes about this material",
+                "link": "presentation.pdf"
+            }
+        ]
+    }
 }
