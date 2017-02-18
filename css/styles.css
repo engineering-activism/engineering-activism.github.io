@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    margin-bottom: 100px;
 }
 
 .content {
@@ -113,3 +114,38 @@ a[ id= "materials" ]:target ~ .content article.section {
 }
 
 
+.materials {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+
+.materials .material-item {
+    padding: 15;
+    border-bottom: solid gray 1px;
+}
+
+.materials .material-item .thumbnail {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.materials .material-item .thumbnail img {
+    width: 80px;
+    height: 80px;
+}
+
+.materials .material-item .title {
+    display: inline-block;
+    width: 200px;
+}
+
+.materials .material-item .notes {
+    vertical-align: top;
+    display: inline-block;
+    width: 400px;
+}
